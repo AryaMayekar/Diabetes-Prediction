@@ -1,0 +1,48 @@
+# ── Python ──────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+venv/
+env/
+pip-log.txt
+
+# ── Jupyter ──────────────────────────────
+.ipynb_checkpoints
+
+# ── Node / React ─────────────────────────
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ── OS ───────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs ─────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Trained model artifacts ──────────────
+# Uncomment the lines below if you do NOT want to commit the model files.
+# They are ~1.6 MB and can always be regenerated with python backend/train.py
+# backend/model/model.joblib
+# backend/model/scaler.joblib
